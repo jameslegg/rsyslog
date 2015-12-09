@@ -2,6 +2,11 @@ rsyslog Cookbook CHANGELOG
 ==========================
 This file is used to list changes made in each version of the rsyslog cookbook.
 
+v.3.0.1 (2015-12-09)
+fork
+- forked to include https://github.com/chef-cookbooks/rsyslog/pull/104
+
+
 v.3.0.0 (2015-11-09)
 ----------
 - Breaking change: The file_input LWRP has been updated to be a Chef 12.5 custom_resource, with backwards compatibility to all Chef 12.x released provided by compat_resource. Additionally the 'source' and 'cookbook' attributes in the file_input resource have been renamed to 'template_source' and 'cookbook_source' to prevent failures.
